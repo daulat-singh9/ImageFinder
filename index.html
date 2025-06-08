@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main">
+
+        <div id="userInp">
+
+            <h1 id="h1">Image Finder</h1>
+
+            <div id="search">
+                <input type="text" id="text" placeholder="Enter Image Name">
+                <button id="sbtn">Search</button>
+            </div>
+
+        </div>
+
+        <div id="allimg">
+      
+            <!-- <div id="img1" class="img">
+                <div id="user1" class="frstdiv">
+                    <img src="https://imgs.search.brave.com/a0KvNjBZHEFt5LRuf4VM9ntFc0we3swZxm9kIPZzQIY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY2LzM5LzU0/LzM2MF9GXzE2NjM5/NTQwMl9VY2JhUzVa/NVRqMXJFYk12emhI/UjFVN0RwQ2dDV2Qz/ci5qcGc" alt="" height="60px">
+                    <p>Mike</p>
+                </div>
+                <div id="mainimg1" class="scnddiv">
+                    <img src="https://imgs.search.brave.com/w2HND3H2u2ORdvuYc96qSZUj_BxcJM2mKSEhQ2E_04I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzQxLzcxLzkz/LzM2MF9GXzc0MTcx/OTM5NF9DOUJQM1li/aVhTSjdXc3BTREx0/S2RZeFpLS1dsZjBK/ei5qcGc" alt="" height="150px">
+                    <p>Bird</p>
+                </div>
+            </div> -->
+
+            <!-- <div id="img2" class="img">
+                <div id="user2" class="frstdiv">
+                    <img src="https://imgs.search.brave.com/a0KvNjBZHEFt5LRuf4VM9ntFc0we3swZxm9kIPZzQIY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY2LzM5LzU0/LzM2MF9GXzE2NjM5/NTQwMl9VY2JhUzVa/NVRqMXJFYk12emhI/UjFVN0RwQ2dDV2Qz/ci5qcGc" alt="" height="60px">
+                    <p>Mike</p>
+                </div>
+                <div id="mainimg2" class="scnddiv">
+                    <img src="https://imgs.search.brave.com/w2HND3H2u2ORdvuYc96qSZUj_BxcJM2mKSEhQ2E_04I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzQxLzcxLzkz/LzM2MF9GXzc0MTcx/OTM5NF9DOUJQM1li/aVhTSjdXc3BTREx0/S2RZeFpLS1dsZjBK/ei5qcGc" alt="" height="150px">
+                    <p>Bird</p>
+                </div>
+            </div> -->
+
+            <!-- <div id="img3" class="img">
+                <div id="user3" class="frstdiv">
+                    <img src="https://imgs.search.brave.com/a0KvNjBZHEFt5LRuf4VM9ntFc0we3swZxm9kIPZzQIY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY2LzM5LzU0/LzM2MF9GXzE2NjM5/NTQwMl9VY2JhUzVa/NVRqMXJFYk12emhI/UjFVN0RwQ2dDV2Qz/ci5qcGc" alt="" height="60px">
+                    <p>Mike</p>
+                </div>
+                <div id="mainimg3" class="scnddiv">
+                    <img src="https://imgs.search.brave.com/w2HND3H2u2ORdvuYc96qSZUj_BxcJM2mKSEhQ2E_04I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzQxLzcxLzkz/LzM2MF9GXzc0MTcx/OTM5NF9DOUJQM1li/aVhTSjdXc3BTREx0/S2RZeFpLS1dsZjBK/ei5qcGc" alt="" height="150px">
+                    <p>Bird</p>
+                </div>
+            </div> -->
+
+            <!-- <div id="img4" class="img">
+                <div id="user4" class="frstdiv">
+                    <img src="https://imgs.search.brave.com/a0KvNjBZHEFt5LRuf4VM9ntFc0we3swZxm9kIPZzQIY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY2LzM5LzU0/LzM2MF9GXzE2NjM5/NTQwMl9VY2JhUzVa/NVRqMXJFYk12emhI/UjFVN0RwQ2dDV2Qz/ci5qcGc" alt="" height="60px">
+                    <p>Mike</p>
+                </div>
+                <div id="mainimg4" class="scnddiv">
+                    <img src="https://imgs.search.brave.com/w2HND3H2u2ORdvuYc96qSZUj_BxcJM2mKSEhQ2E_04I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzQxLzcxLzkz/LzM2MF9GXzc0MTcx/OTM5NF9DOUJQM1li/aVhTSjdXc3BTREx0/S2RZeFpLS1dsZjBK/ei5qcGc" alt="" height="150px">
+                    <p>Bird</p>
+                </div>
+            </div> -->
+
+            <!-- <div id="img5" class="img">
+                <div id="user5" class="frstdiv">
+                    <img src="https://imgs.search.brave.com/a0KvNjBZHEFt5LRuf4VM9ntFc0we3swZxm9kIPZzQIY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY2LzM5LzU0/LzM2MF9GXzE2NjM5/NTQwMl9VY2JhUzVa/NVRqMXJFYk12emhI/UjFVN0RwQ2dDV2Qz/ci5qcGc" alt="" height="60px">
+                    <p>Mike</p>
+                </div>
+                <div id="mainimg1\5" class="scnddiv">
+                    <img src="https://imgs.search.brave.com/w2HND3H2u2ORdvuYc96qSZUj_BxcJM2mKSEhQ2E_04I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzQxLzcxLzkz/LzM2MF9GXzc0MTcx/OTM5NF9DOUJQM1li/aVhTSjdXc3BTREx0/S2RZeFpLS1dsZjBK/ei5qcGc" alt="" height="150px">
+                    <p>Bird</p>
+                </div>
+            </div> -->
+
+            <!-- <div id="img6" class="img">
+                <div id="user6" class="frstdiv">
+                    <img src="https://imgs.search.brave.com/a0KvNjBZHEFt5LRuf4VM9ntFc0we3swZxm9kIPZzQIY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY2LzM5LzU0/LzM2MF9GXzE2NjM5/NTQwMl9VY2JhUzVa/NVRqMXJFYk12emhI/UjFVN0RwQ2dDV2Qz/ci5qcGc" alt="" height="60px">
+                    <p>Mike</p>
+                </div>
+                <div id="mainimg6" class="scnddiv">
+                    <img src="https://imgs.search.brave.com/w2HND3H2u2ORdvuYc96qSZUj_BxcJM2mKSEhQ2E_04I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzQxLzcxLzkz/LzM2MF9GXzc0MTcx/OTM5NF9DOUJQM1li/aVhTSjdXc3BTREx0/S2RZeFpLS1dsZjBK/ei5qcGc" alt="" height="150px">
+                    <p>Bird</p>
+                </div>
+            </div> -->
+
+        </div>
+
+        
+    </div>
+    
+    <div class="btn">
+        <button id="loadbtn" class="hidden">Load More</button>
+
+        <button id="rfs" class="hiddenrfs">Refresh</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
